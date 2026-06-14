@@ -60,3 +60,33 @@ Kiểm tra hoạt động:
 -  Server: mariadb
 -  User: root
 -  Password: rootpassword
+
+<img width="1671" height="806" alt="image" src="https://github.com/user-attachments/assets/42a3a405-61df-4513-98bf-4a6b4ecf36b0" />
+
+<img width="1711" height="797" alt="Screenshot 2026-06-14 215227" src="https://github.com/user-attachments/assets/92dea3c0-0b01-4dda-a32a-dde1c2f3d18e" />
+
+<img width="1918" height="1078" alt="Screenshot 2026-06-14 201745" src="https://github.com/user-attachments/assets/39c5030b-9466-422f-94b6-8a544d676467" />
+
+Quan sát:
+-  Database wordpress_db đã tồn tại Chưa có bảng dữ liệu (do làm xong rồi mới chụp nên có các bảng của wordpress tự tạo).
+
+<img width="1711" height="797" alt="Screenshot 2026-06-14 215227" src="https://github.com/user-attachments/assets/60469199-0d83-45f7-af25-7a3473a92932" />
+
+Cài đặt WordPress
+Truy cập:
+Làm theo hướng dẫn:
+
+Sau khi cài xong:
+
+-  WordPress sẽ tự tạo toàn bộ bảng dữ liệu
+
+-  Kiểm tra database sau khi cài WordPress
+
+-  Vào lại PhpMyAdmin.
+
+Quan sát:
+
+<img width="1711" height="797" alt="Screenshot 2026-06-14 215227" src="https://github.com/user-attachments/assets/6634491c-7801-44cf-aa4f-f65914f046f5" />
+
+
+
