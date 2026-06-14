@@ -36,10 +36,27 @@ docker compose up -d
 
 <img width="1046" height="528" alt="Screenshot 2026-06-14 174158" src="https://github.com/user-attachments/assets/33c1b4ba-3b2c-4846-aa9c-45745cc73c8c" />
 Kiểm tra container:
-Tạo Cloudflare Tunnel
-Đăng nhập Cloudflare: cloudflared tunnel login
-Tạo tunnel: cloudflared tunnel create wordpress-tunnel
-Tạo file config tunnel: nano ~/.cloudflared/config.yml
+
+-  Tạo Cloudflare Tunnel
+-  Đăng nhập Cloudflare: cloudflared tunnel login
+-  Tạo tunnel: cloudflared tunnel create wordpress-tunnel
+-  Tạo file config tunnel: nano ~/.cloudflared/config.yml
 
 <img width="1661" height="141" alt="Screenshot 2026-06-14 164355" src="https://github.com/user-attachments/assets/e890877b-fc3e-4813-acb7-44f3f18f8e9b" />
 
+Add router DNS:
+
+<img width="1027" height="126" alt="Screenshot 2026-06-14 214505" src="https://github.com/user-attachments/assets/c050174d-eb56-40d0-b645-4b89a28fea11" />
+
+Chạy tunnel:
+
+<img width="1027" height="407" alt="Screenshot 2026-06-14 175313" src="https://github.com/user-attachments/assets/481d492b-cc76-4a62-8878-8c9a05bd328f" />
+
+Kiểm tra hoạt động:
+-  Kiểm tra cơ sở dữ liệu trước khi cài WordPress
+
+-  Đăng nhập PhpMyAdmin:
+
+-  Server: mariadb
+-  User: root
+-  Password: rootpassword
