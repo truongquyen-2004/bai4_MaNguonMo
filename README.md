@@ -88,5 +88,99 @@ Quan sát:
 
 <img width="1711" height="797" alt="Screenshot 2026-06-14 215227" src="https://github.com/user-attachments/assets/6634491c-7801-44cf-aa4f-f65914f046f5" />
 
+Tạo bài viết thủ công
+-  Bài viết 1
+
+-  Giới thiệu bản thân:
+
+  <img width="1778" height="942" alt="Screenshot 2026-06-14 172124" src="https://github.com/user-attachments/assets/c9eebf88-89da-44a0-8495-394d62ccb2da" />
+  Bài viết 2
+
+Giới thiệu kiến thức đã học ở môn Phát triển ứng dụng với mã nguồn mở
+
+<img width="936" height="250" alt="image" src="https://github.com/user-attachments/assets/9aac0126-0341-4c93-9f2e-682bd13dba79" />
+
+Cấu hình n8n
+-  Tạo tài khoản admin
+Điền:
+-  Email đúng
+-  Password
+-  sau khi làm xong chúng ta se được đưa đến màn hình trang chủ
+
+<img width="1486" height="640" alt="image" src="https://github.com/user-attachments/assets/dcc39b0f-1a34-4c24-a612-b1cf6ec2432d" />
+
+Activate License Key:
+
+vào trang chủ => SETTING (góc dưới trái) => Usage and plan => Enter activation key
+
+<img width="1917" height="1067" alt="Screenshot 2026-06-14 193658" src="https://github.com/user-attachments/assets/2118ed69-eb7f-40f1-85fe-d18f033abdb7" />
+
+n8n sẽ gửi mail chứa KEY.
+
+<img width="1022" height="460" alt="image" src="https://github.com/user-attachments/assets/bc87b5bf-edf9-4846-b941-08d35875717e" />
+nhập key vào sau đó nhấn Activate
+
+Activate xong.
+
+Tạo Telegram Bot (mặc định là đã có tài khoản Telegram)
+Chat với: @BotFather
+
+nhập /newbot
+
+Đặt:
+
+Tên bot
+Username bot
+sau đó BotFather sẽ gửi cho 1 HTTP API TOKEN
+
+<img width="1792" height="795" alt="Screenshot 2026-06-14 215423" src="https://github.com/user-attachments/assets/9f135f1a-3ac9-49dd-bb54-af7d04002a2e" />
+
+Quy trình hoạt động:
+
+Điện thoại → Telegram Bot → Telegram Trigger → Gemini AI → JavaScript xử lý JSON → WordPress Create Post → Bài viết tự động xuất hiện trên website
+
+Kiểm tra kết quả Từ điện thoại
+
+Nhắn:
+
+Viết 1 đoạn văn 200 chữ nói về lợi ích của việc đi học
+
+Sau vài giây:
+
+WordPress có bài viết mới
+
+Có HTML + CSS đẹp
+
+Đăng tự động
+
+<img width="1840" height="920" alt="Screenshot 2026-06-14 215403" src="https://github.com/user-attachments/assets/04339fef-28fa-48b8-8072-fdacc11d1f31" />
+
+Nhận xét thành quả đạt được
+Sau khi hoàn thành bài tập:
+
+-  Hiểu cách triển khai hệ thống bằng Docker Compose
+-  Biết sử dụng MariaDB cho WordPress
+-  Sử dụng Cloudflare Tunnel để public service
+-  Biết cấu hình n8n automation
+-  Kết nối Telegram với AI Gemini
+-  Tự động tạo và đăng bài WordPress bằng AI
+-  Hiểu quy trình xử lý dữ liệu JSON trong n8n
+-  Có thể mở rộng thành hệ thống AI Content Automation thực tế
+Kết luận
+Bài tập giúp hiểu rõ:
+
+Docker
+-  Container networking
+-  WordPress deployment
+-  Cloudflare Tunnel
+-  n8n automation
+-  Telegram Bot API
+-  Gemini AI API
+-  Workflow tự động hóa bằng AI
+Đây là mô hình rất thực tế và có thể phát triển thành hệ thống tạo nội dung tự động hoàn chỉnh.
+
+
+
+
 
 
